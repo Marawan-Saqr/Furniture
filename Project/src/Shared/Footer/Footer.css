@@ -1,0 +1,62 @@
+footer {
+  background-color: #212529;
+  color: #fff;
+}
+
+footer h2 {
+  color: #fff;
+}
+
+footer .left p {
+  color: gray;
+  margin: 20px 0px;
+}
+
+footer .right .box ul {
+  list-style-type: none;
+  color: #fff;
+  line-height: 2.1;
+}
+
+footer .right .box ul li {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+footer .right .box ul li:hover {
+  color: #f9bf29;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+footer .social-links i {
+  color: #fff;
+  background-color: #f9bf29;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  text-align: center;
+  transition: 0.5s;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+footer .social-links i:hover {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  background-color: black;
+}

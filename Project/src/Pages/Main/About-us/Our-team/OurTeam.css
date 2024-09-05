@@ -1,0 +1,29 @@
+@media (max-width: 767px) {
+  .our-team .box {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .our-team .box {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .our-team .box {
+    margin-bottom: 40px;
+  }
+}
+
+.our-team h2 span {
+  color: #f9bf29;
+}
+
+.our-team .box h6 {
+  color: #1d1d1d;
+}
+
+.our-team .box p {
+  color: gray;
+}

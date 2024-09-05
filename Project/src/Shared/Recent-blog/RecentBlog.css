@@ -1,0 +1,25 @@
+.recent-blog {
+  background-color: #f8f8f8;
+}
+
+@media (max-width: 767px) {
+  .recent-blog .right {
+    text-align: start !important;
+  }
+}
+
+.recent-blog .box {
+  margin-top: 30px;
+}
+
+.recent-blog .box img {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.recent-blog .box .text {
+  margin-top: 30px;
+}

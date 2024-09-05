@@ -1,0 +1,94 @@
+.Interior-design {
+  background-color: #f8f8f8;
+  padding: 90px 0px;
+}
+
+.Interior-design .left {
+  position: relative;
+  z-index: 2000;
+}
+
+.Interior-design .left img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.Interior-design .left::before {
+  content: '';
+  position: absolute;
+  top: -74px;
+  left: -94px;
+  width: 60%;
+  height: 60%;
+  background-size: cover;
+  background-position: center;
+  background-image: url('dots-green.svg');
+  z-index: -1;
+  clip-path: inset(0 47% 0 0);
+}
+
+.Interior-design .right .content h2 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .Interior-design .right .content h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Interior-design .right .content h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.Interior-design .right p,
+.Interior-design .right ul {
+  color: gray;
+}
+
+@media (max-width: 767px) {
+  .Interior-design .right .content p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Interior-design .right .content p {
+    text-align: center;
+    margin: 40px 0px;
+  }
+}
+
+.Interior-design .right ul {
+  padding-left: 20px;
+}
+
+.Interior-design .right .left-bullet ul li,
+.Interior-design .right .right-bullet ul li {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Interior-design .right ul li {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Interior-design .products .box {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Interior-design .products .box {
+    text-align: center;
+  }
+}

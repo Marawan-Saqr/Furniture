@@ -1,0 +1,115 @@
+{
+  "chairsProducts": [
+    {
+      "id": "1",
+      "title": "Nordic Chair",
+      "salary": 50,
+      "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio"
+    },
+    {
+      "id": "2",
+      "title": "Normal Chair",
+      "salary": 10,
+      "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio"
+    },
+    {
+      "id": "3",
+      "title": "Kruzo Aero Chair",
+      "salary": 78,
+      "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio"
+    },
+    {
+      "id": "4",
+      "title": "Ergonomic Chair",
+      "salary": 43,
+      "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio"
+    },
+    {
+      "id": "5",
+      "title": "Modern Chair",
+      "salary": 20,
+      "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio"
+    },
+    {
+      "id": "6",
+      "title": "Classic Chair",
+      "salary": 50,
+      "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio"
+    },
+    {
+      "id": "7",
+      "title": "High Chair",
+      "salary": 90,
+      "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio"
+    },
+    {
+      "id": "8",
+      "title": "Small Chair",
+      "salary": 80,
+      "description": "Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio"
+    },
+    {
+      "id": "9",
+      "title": "Normal Chair",
+      "salary": 30,
+      "description": "This Is Normal Chair"
+    },
+    {
+      "id": "3a75",
+      "title": "Normal Chair",
+      "salary": "100",
+      "description": "This Is Chair"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "description": "“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.",
+      "name": "Maria Jones",
+      "title": "CEO, Co-Founder, XYZ Inc."
+    }
+  ],
+  "blogs": [
+    {
+      "id": "2",
+      "title": "First Time Home Owner Ideas",
+      "author": "by Robert Fox on Dec 15, 2021"
+    },
+    {
+      "id": "3",
+      "title": "How To Keep Your Furniture Clean",
+      "author": "by Kristin Watson on Dec 19, 2021"
+    },
+    {
+      "id": "4",
+      "title": "Small Space Furniture Apartment Ideas",
+      "author": "by Kristin Watson on Dec 12, 2021"
+    }
+  ],
+  "team": [
+    {
+      "id": "1",
+      "memberTeam": "Lawson Arnold",
+      "memberPosition": "CEO, Founder, Atty",
+      "memberDescription": "Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+    },
+    {
+      "id": "2",
+      "memberTeam": "Jeremy Walker",
+      "memberPosition": "Accountant",
+      "memberDescription": "Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+    },
+    {
+      "id": "3",
+      "memberTeam": "Patrik White",
+      "memberPosition": "Front-End Developer",
+      "memberDescription": "Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+    },
+    {
+      "id": "4",
+      "memberTeam": "Kathryn Ryan",
+      "memberPosition": "Hr",
+      "memberDescription": "Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+    }
+  ]
+}

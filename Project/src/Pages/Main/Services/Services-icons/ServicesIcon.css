@@ -1,0 +1,49 @@
+@media (max-width: 767px) {
+  .services-icon .box {
+    text-align: center;
+  }
+}
+
+.services-icon .box {
+  padding: 20px 0px;
+}
+
+.services-icon .box p {
+  color: gray;
+}
+
+@media (max-width: 767px) {
+  .services-icon .box {
+    text-align: center;
+  }
+}
+
+.services-icon .box i {
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  color: #f9bf29;
+}
+
+.services-icon .box i::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #0000001a;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  top: 7px;
+  left: 12px;
+}
+
+.services-icon .box h6 {
+  margin: 15px 0px;
+}
+
+.services-icon .box p {
+  color: gray;
+}

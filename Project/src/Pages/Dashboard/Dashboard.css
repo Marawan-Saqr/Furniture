@@ -1,0 +1,39 @@
+.dashboard {
+  overflow: hidden;
+}
+
+.dashboard aside {
+  background-color: #e0e0e0;
+  line-height: 2.7;
+}
+
+.dashboard aside ul {
+  list-style-type: none;
+  margin: 0px 0px 5px 0px;
+  padding: 0px 10px;
+}
+
+.dashboard aside ul li {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  cursor: pointer;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.dashboard aside ul li:not(:last-child) {
+  border-bottom: 1px solid gray;
+}
+
+.dashboard aside ul li:hover {
+  background-color: #f9bf29;
+  color: #fff;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}

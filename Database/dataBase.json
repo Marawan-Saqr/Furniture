@@ -57,7 +57,7 @@
     {
       "id": "3a75",
       "title": "Normal Chair",
-      "salary": "100",
+      "salary": 100,
       "description": "This Is Chair"
     }
   ],

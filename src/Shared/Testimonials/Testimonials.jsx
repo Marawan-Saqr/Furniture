@@ -9,7 +9,7 @@ const Testimonials = () => {
   const [loading, setLoading] = useState(true);
 
   const getPersonReview = async () => {
-    await axios.get("http://localhost:3001/reviews").then((response) => setPersonReview(response.data));
+    await axios.get("https://veil-flicker-piano.glitch.me/reviews").then((response) => setPersonReview(response.data));
     setLoading(false);
   }
 

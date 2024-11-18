@@ -11,7 +11,7 @@ const ProductSection = () => {
   const [loading, setLoading] = useState(true);
 
   const getAllProducts = async () => {
-    await axios.get("http://localhost:3001/chairsProducts").then((response) => setProducts(response.data));
+    await axios.get("https://veil-flicker-piano.glitch.me/chairsProducts").then((response) => setProducts(response.data));
     setLoading(false);
   };
 

@@ -11,7 +11,7 @@ const RecentBlog = () => {
   const [loading, setLoading] = useState(true);
 
   const getAllBlogs = async () => {
-    await axios.get("http://localhost:3001/blogs").then((response) => setBlog(response.data));
+    await axios.get("https://veil-flicker-piano.glitch.me/blogs").then((response) => setBlog(response.data));
     setLoading(false);
   }
 

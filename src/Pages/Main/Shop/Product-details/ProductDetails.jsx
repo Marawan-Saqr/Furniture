@@ -12,7 +12,7 @@ const ProductDetails = () => {
 
   const getProductDetails = async () => {
     try {
-      const response = await axios.get(`http://localhost:3001/chairsProducts/${params.productID}`);
+      const response = await axios.get(`https://veil-flicker-piano.glitch.me/team/${params.productID}`);
       setProductDetails(response.data);
     } catch (error) {
       console.error("Error fetching product details:", error);

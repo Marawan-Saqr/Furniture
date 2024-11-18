@@ -12,7 +12,7 @@ const OurTeam = () => {
 
   const getAllMembers = async () => {
     try {
-      const response = await axios.get("http://localhost:3001/team");
+      const response = await axios.get("https://veil-flicker-piano.glitch.me/team");
       setMembers(response.data);
     } catch (error) {
       console.error("Failed to fetch team members", error);

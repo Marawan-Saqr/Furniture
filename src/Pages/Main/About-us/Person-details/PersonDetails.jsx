@@ -42,7 +42,7 @@ const PersonDetails = () => {
               </div>
               <div className='col-md-6 p-3'>
                 <h2>{personDetails.memberTeam}</h2>
-                <h4>{personDetails.memberPosition}.00$</h4>
+                <h4>{personDetails.memberPosition}</h4>
                 <p>{personDetails.memberDescription}</p>
               </div>
             </div>

@@ -13,7 +13,7 @@ const AddProduct = () => {
 
   const addProduct = handleSubmit(async (data) => {
     await axios
-      .post("http://localhost:3001/chairsProducts", data)
+      .post("https://veil-flicker-piano.glitch.me/chairsProducts", data)
       .then(() => navigate("/shop"));
   });
 
